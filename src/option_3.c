@@ -1,9 +1,9 @@
-#include "text.h"
-#include "sentence.h"
-#include "word.h"
-#include "utils.h"
-#include "option_3.h"
 #include <string.h>
+#include "../includes/text.h"
+#include "../includes/sentence.h"
+#include "../includes/word.h"
+#include "../includes/utils.h"
+#include "../includes/option_3.h"
 
 void delete_sentences_with_comma(Text* text) {
 

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "utils.h"
-#include "config.h"
+#include "../includes/utils.h"
+#include "../includes/config.h"
 
 void print_project_info(void) {
     printf("Course work for option 4.6, created by Ivanov Egor.\n");

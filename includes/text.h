@@ -1,5 +1,5 @@
 #pragma once
-#include <stdlib.h>
+#include <stddef.h>
 #include "sentence.h"
 
 typedef struct {

@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <ctype.h>
-#include "option_4.h"
-#include "text.h"
+#include "./includes/option_4.h"
+#include "./includes/text.h"
 
 int is_sep(char c) {
     int result = 0;  // единственная точка выхода

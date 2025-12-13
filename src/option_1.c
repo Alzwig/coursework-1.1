@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-#include "config.h"
-#include "option_1.h"
-#include "utils.h"
-#include "text.h"
+#include "../includes/config.h"
+#include "../includes/option_1.h"
+#include "../includes/utils.h"
+#include "../includes/text.h"
 
 
 WordCount* count_words(Text* text, int* error, size_t* total_words) {

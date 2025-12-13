@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "text.h"
+#include "../includes/text.h"
 
 void reverse_word_chars(Word* w) {
     if (w && w->chars && w->len > 1) {

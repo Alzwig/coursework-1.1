@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <ctype.h>
-#include "word.h"
-#include "config.h"
-#include "utils.h"
+#include <stdlib.h>
+#include "../includes/word.h"
+#include "../includes/config.h"
+#include "../includes/utils.h"
 
 void free_word(Word* w){
     if (!w) return;

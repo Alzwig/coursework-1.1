@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "print_text.h"
-#include "text.h"
+#include "../includes/print_text.h"
+#include "../includes/text.h"
 
 void print_sentence_line(Sentence* s) {
     size_t i = 0;

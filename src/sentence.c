@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <string.h>
-#include "sentence.h"
-#include "word.h"
-#include "config.h"
-#include "utils.h"
+#include <stdlib.h>
+#include "../includes/sentence.h"
+#include "../includes/word.h"
+#include "../includes/config.h"
+#include "../includes/utils.h"
 
 void free_sentence(Sentence* s) {
     if (!s) return;

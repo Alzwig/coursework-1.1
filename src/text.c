@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include "text.h"
-#include "sentence.h"
-#include "config.h"
-#include "utils.h"
+#include <stdlib.h>
+#include "../includes/text.h"
+#include "../includes/sentence.h"
+#include "../includes/config.h"
+#include "../includes/utils.h"
 
 void free_text(Text* t) {
     if (!t) return;

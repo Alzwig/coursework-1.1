@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 #include <strings.h>
-#include "utils.h"
-#include "config.h"
-#include "text.h"
-#include "primary_processing.h"
+#include <stdlib.h>
+#include "../includes/utils.h"
+#include "../includes/config.h"
+#include "../includes/text.h"
+#include "../includes/primary_processing.h"
 
 char* sentence_to_string(Sentence* s, int* error) {
     char* res = NULL;

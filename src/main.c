@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include "config.h"
-#include "utils.h"
-#include "text.h"
-#include "primary_processing.h"
-#include "print_text.h"
-#include "option_1.h"
-#include "option_2.h"
-#include "option_3.h"
-#include "option_4.h"
+#include "../includes/config.h"
+#include "../includes/utils.h"
+#include "../includes/text.h"
+#include "../includes/primary_processing.h"
+#include "../includes/print_text.h"
+#include "../includes/option_1.h"
+#include "../includes/option_2.h"
+#include "../includes/option_3.h"
+#include "../includes/option_4.h"
 
 
 int main(void) {
